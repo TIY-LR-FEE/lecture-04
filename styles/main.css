@@ -35,15 +35,24 @@
 }
 
 @keyframes dance-idarb-dance {
-	0% {
+	10% {
+		transform: translateX(100px) rotate(20deg) translateY(100px);
+	}
 
+	20% {
+		transform: translateX(100px) rotate(20deg) translateY(100px);
+	}
+
+	30% {
+		transform: translateX(100px) rotate(20deg) translateY(100px);
+	}
+
+	40% {
+		transform: translateX(100px) rotate(20deg) translateY(100px);
 	}
 
 	50% {
 		transform: translateX(100px) rotate(20deg) translateY(100px);
 	}
 
-	100% {
-
-	}
 }
