@@ -1,22 +1,26 @@
 .container {
 	display: flex;
-	flex-wrap: wrap;
 }
 
 .box {
+	width: 2000px;
 	height: 200px;
-	width: 200px;
+	border: 2px solid goldenrod;
+	margin: 2px;
 }
 
 .box1 {
+	order: 1;
 	background-color: burlywood;
 }
 
 .box2 {
+	order: 3;
 	background-color: crimson;
 }
 
 .box3 {
+	order: 2;
 	background-color: blue;
 }
 
